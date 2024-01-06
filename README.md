@@ -5,5 +5,5 @@
 
 <!--START_SECTION:lapras-card-->
 <a href="https://lapras.com/public/tatsutakein" target="_blank" rel="noopener noreferrer"><img src="https://lapras-card-generator.vercel.app/api/svg?e=3.87&b=2.85&i=3.54&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=ja" width="400" ></a>  
-Last Updated on 1/5/2024, 12:56:59 AM
+Last Updated on 1/6/2024, 12:55:57 AM
 <!--END_SECTION:lapras-card-->
