@@ -4,6 +4,6 @@
 [![](https://raw.githubusercontent.com/tkchry/tkchry/main/profile-summary-card-output/github_dark/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/tkchry/tkchry/main/profile-summary-card-output/github_dark/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
 <!--START_SECTION:lapras-card-->
-<a href="https://lapras.com/public/tatsutakein" target="_blank" rel="noopener noreferrer"><img src="https://lapras-card-generator.vercel.app/api/svg?e=3.9&b=3.36&i=3.36&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=ja" width="400" ></a>  
-Last Updated on 6/11/2024, 12:13:32 AM
+<p ><a href="https://lapras.com/public/tatsutakein" target="_blank" rel="noopener noreferrer"><img alt="tatsutakein's scores on LAPRAS are as follows: Engineering: 3.9 out of 5.0, Business: 3.36 out of 5.0, Influence: 3.36 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.9&b=3.36&i=3.36&b1=%23232323&b2=%236d6d6d&i1=%23212121&i2=%23818181&l=en" width="400" ></a>  
+Last Updated on 6/11/2024, 7:01:22 AM</p>
 <!--END_SECTION:lapras-card-->
