@@ -6,14 +6,24 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    name: generate
-
+  generate:
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
+      # https://github.com/marketplace/actions/checkout
+      - name: Checkout
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4.1.6
+
+      # https://github.com/marketplace/actions/create-github-app-token
+      - name: Create GitHub App Token
+        uses: actions/create-github-app-token@c8f55efbd427e7465d6da1106e7979bc8aaee856 # v1.10.1
+        id: app-token
+        with:
+          app-id: ${{ inputs.gh-app-id }}
+          private-key: ${{ secrets.gh-app-private-key }}
+
+      # https://github.com/marketplace/actions/github-profile-summary-cards
+      - uses: vn7n24fzkq/github-profile-summary-cards@5055b27ac896c627043ead432f9b2fa973aa2c80 # v0.7.0
         env:
-          GITHUB_TOKEN: ${{ secrets.PROFILE_SUMMARY_CARDS_KEY }}
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
         with:
           USERNAME: ${{ github.repository_owner }}
