@@ -8,8 +8,13 @@ on:
 jobs:
   update-card:
     name: LAPRAS Card
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
-      - uses: kawamataryo/lapras-card-readme@v1.2.4
+      - uses: kawamataryo/lapras-card-readme@97beea07675cba3eded93eaeb71744413d7f8e8b # v1.3.0
         with:
           SHARE_ID: "tatsutakein"
+          ICON_FIRST: "#212121"
+          ICON_SECOND: "#818181"
+          BACKGROUND_FIRST: "#232323"
+          BACKGROUND_SECOND: "#6d6d6d"
+          LANG: "en"
