@@ -10,8 +10,17 @@ jobs:
     name: LAPRAS Card
     runs-on: ubuntu-22.04
     steps:
+      # https://github.com/marketplace/actions/create-github-app-token
+      - name: Create GitHub App Token
+        uses: actions/create-github-app-token@c8f55efbd427e7465d6da1106e7979bc8aaee856 # v1.10.1
+        id: app-token
+        with:
+          app-id: ${{ vars.BOT_APP_ID }}
+          private-key: ${{ secrets.BOT_PRIVATE_KEY }}
+
       - uses: kawamataryo/lapras-card-readme@97beea07675cba3eded93eaeb71744413d7f8e8b # v1.3.0
         with:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
           SHARE_ID: "tatsutakein"
           ICON_FIRST: "#212121"
           ICON_SECOND: "#818181"
