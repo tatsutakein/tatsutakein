@@ -5,5 +5,5 @@
 
 <!--START_SECTION:lapras-card-->
 <p ><a href="https://lapras.com/public/tatsutakein" target="_blank" rel="noopener noreferrer"><img alt="tatsutakein's scores on LAPRAS are as follows: Engineering: 3.88 out of 5.0, Business: 3.36 out of 5.0, Influence: 3.37 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.88&b=3.36&i=3.37&b1=%23232323&b2=%236d6d6d&i1=%23212121&i2=%23818181&l=en" width="400" ></a>  
-Last Updated on 8/5/2024, 12:15:07 AM</p>
+Last Updated on 8/6/2024, 12:14:16 AM</p>
 <!--END_SECTION:lapras-card-->
