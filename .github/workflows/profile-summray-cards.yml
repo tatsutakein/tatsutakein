@@ -22,7 +22,7 @@ jobs:
           private-key: ${{ secrets.BOT_PRIVATE_KEY }}
 
       # https://github.com/marketplace/actions/github-profile-summary-cards
-      - uses: vn7n24fzkq/github-profile-summary-cards@5055b27ac896c627043ead432f9b2fa973aa2c80 # v0.7.0
+      - uses: vn7n24fzkq/github-profile-summary-cards@7022eb6bd48de38b092f54110a8ff8185f2ac4a1 # v0.13.0
         env:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
         with:
