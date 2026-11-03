@@ -32,13 +32,3 @@
 ```
 
     
-
----
-
-![](./4-productive-time.svg)
-
-```
-![](https://raw.githubusercontent.com/tatsutakein/tatsutakein/main/profile-summary-card-output/algolia/4-productive-time.svg)
-```
-
-    
